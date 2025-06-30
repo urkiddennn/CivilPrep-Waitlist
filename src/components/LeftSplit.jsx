@@ -4,14 +4,14 @@ import { IoBookOutline } from "react-icons/io5";
 import { IoMdTime } from "react-icons/io";
 const LeftSplit = () => {
   return (
-    <div className="w-1/2 h-full flex flex-col gap-4 justify-start items-start px-20 py-24">
+    <div className="sm:w-1/2 w-full h-full flex flex-col gap-4 justify-start items-start md:px-20 sm:px-10 px-5  md:py-24 sm:py-12 py-6">
       <div className="flex text-3xl justify-center items-center gap-5">
         <IoBookOutline className="text-blue-500" />
-        <h1>CivilPrep</h1>
+        <h1 className="font-extrabold text-2xl">CivilPrep</h1>
       </div>
 
       <AvatarStack numberProfile={1000} />
-      <h1 className="text-6xl font-semibold">
+      <h1 className="sm:text-6xl text-4xl font-semibold">
         Hello world, I don't have something to say
       </h1>
       <p className="text-lg text-gray-500">

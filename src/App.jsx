@@ -3,7 +3,10 @@ import RightSplit from "./components/RightSplit";
 
 function App() {
   return (
-    <div className="w-full h-screen flex" data-theme="light">
+    <div
+      className="w-full h-screen flex sm:flex-row flex-col overflow-hidden"
+      data-theme="light"
+    >
       <LeftSplit />
       <RightSplit />
     </div>

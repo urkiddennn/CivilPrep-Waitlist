@@ -1,12 +1,14 @@
 const InputEmail = () => {
   return (
-    <div className="w-auto h-12 flex justify-center items-center bg-gray-200 rounded-full pl-5 pr-1">
+    <div className="sm:w-auto w-full h-12 flex justify-center items-center bg-gray-200 rounded-full pl-6 pr-1">
       <input
         type="text"
         placeholder="Email address"
         className="w-full h-full outline-none"
       />
-      <button className="btn rounded-full">Get Notified</button>
+      <button className="btn rounded-full hover:bg-gray-900 hover:text-white">
+        Get Notified
+      </button>
     </div>
   );
 };
