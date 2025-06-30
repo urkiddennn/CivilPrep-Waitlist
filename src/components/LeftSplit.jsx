@@ -18,17 +18,43 @@ const LeftSplit = () => {
         Whereas recognition of the inherent dignity
       </p>
       <InputEmail />
-      <div className="flex flex-col justify-start items-start gap-3 w-auto">
-        <h1 className="text-lg font-semibold">Features</h1>
-        <div className="flex justify-start items-start float-start">
-          <div className="bg-blue-200 rounded-full w-auto">
-            <IoMdTime className="text-blue-500" />
-          </div>
-          <div>
-            <h1>Feature 1</h1>
-            <p>Hello this is the feature number 1 for this Saas</p>
-          </div>
-        </div>
+      <div className="flex flex-col justify-start items-start gap-3 w-full">
+        <h1 className="text-xl font-semibold">Features</h1>
+        <ul className="w-full flex flex-col gap-5">
+          <li className="w-full flex gap-3">
+            <div className=" w-auto flex justify-center items-start float-start gap-3">
+              <IoMdTime className="text-blue-500 size-6" />
+            </div>
+            <div className="flex flex-col text-start justify-center items-start">
+              <h1 className="text-xl font-semibold">Time management</h1>
+              <p className="text-gray-500">
+                Hello wolrd this is the first section selected for the user
+              </p>
+            </div>
+          </li>
+          <li className="w-full flex gap-3">
+            <div className=" w-auto flex justify-center items-start float-start gap-3">
+              <IoMdTime className="text-blue-500 size-6" />
+            </div>
+            <div className="flex flex-col text-start justify-center items-start">
+              <h1 className="text-xl font-semibold">Time management</h1>
+              <p className="text-gray-500">
+                Hello wolrd this is the first section selected for the user
+              </p>
+            </div>
+          </li>
+          <li className="w-full flex gap-3">
+            <div className=" w-auto flex justify-center items-start float-start gap-3">
+              <IoMdTime className="text-blue-500 size-6" />
+            </div>
+            <div className="flex flex-col text-start justify-center items-start">
+              <h1 className="text-xl font-semibold">Time management</h1>
+              <p className="text-gray-500">
+                Hello wolrd this is the first section selected for the user
+              </p>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   );
