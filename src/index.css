@@ -5,3 +5,6 @@
     dark --prefersdark,
     light;
 }
+* {
+  font-family: "Karla", sans-serif;
+}
