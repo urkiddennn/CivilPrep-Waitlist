@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const AvatarStack = ({ numberProfile }) => {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center my-5">
       <div className="avatar-group -space-x-6">
         <div className="avatar">
           <div className="w-10 h-10 rounded-full">

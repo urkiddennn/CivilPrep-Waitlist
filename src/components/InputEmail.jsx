@@ -1,6 +1,6 @@
 const InputEmail = () => {
   return (
-    <div className="sm:w-auto w-full h-12 flex justify-center items-center bg-gray-200 rounded-full pl-6 pr-1">
+    <div className="sm:w-1/2 w-full h-12 flex justify-center items-center bg-gray-200 rounded-full pl-6 pr-1 mb-3">
       <input
         type="text"
         placeholder="Email address"
