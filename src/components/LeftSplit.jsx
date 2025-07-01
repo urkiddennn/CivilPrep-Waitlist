@@ -19,14 +19,14 @@ const LeftSplit = () => {
       </p>
       <InputEmail />
       <div className="flex flex-col justify-start items-start gap-3 w-full">
-        <h1 className="text-xl font-semibold">Features</h1>
+        <h1 className="text-3xl font-bold">Features</h1>
         <ul className="w-full flex flex-col gap-5">
           <li className="w-full flex gap-3">
             <div className=" w-auto flex justify-center items-start float-start gap-3">
-              <IoMdTime className="text-blue-500 size-6" />
+              <IoMdTime className="text-blue-500 size-7" />
             </div>
             <div className="flex flex-col text-start justify-center items-start">
-              <h1 className="text-xl font-semibold">Time management</h1>
+              <h1 className="text-2xl font-semibold">Time management</h1>
               <p className="text-gray-500">
                 Hello wolrd this is the first section selected for the user
               </p>
@@ -34,10 +34,10 @@ const LeftSplit = () => {
           </li>
           <li className="w-full flex gap-3">
             <div className=" w-auto flex justify-center items-start float-start gap-3">
-              <IoMdTime className="text-blue-500 size-6" />
+              <IoMdTime className="text-blue-500 size-7" />
             </div>
             <div className="flex flex-col text-start justify-center items-start">
-              <h1 className="text-xl font-semibold">Time management</h1>
+              <h1 className="text-2xl font-semibold">Time management</h1>
               <p className="text-gray-500">
                 Hello wolrd this is the first section selected for the user
               </p>
@@ -45,10 +45,10 @@ const LeftSplit = () => {
           </li>
           <li className="w-full flex gap-3">
             <div className=" w-auto flex justify-center items-start float-start gap-3">
-              <IoMdTime className="text-blue-500 size-6" />
+              <IoMdTime className="text-blue-500 size-7" />
             </div>
             <div className="flex flex-col text-start justify-center items-start">
-              <h1 className="text-xl font-semibold">Time management</h1>
+              <h1 className="text-2xl font-semibold">Time management</h1>
               <p className="text-gray-500">
                 Hello wolrd this is the first section selected for the user
               </p>
