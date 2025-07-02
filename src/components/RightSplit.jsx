@@ -18,6 +18,7 @@ const RightSplit = () => {
         className="absolute sm:-bottom-20 -bottom-14 sm:left-96 -right-46 rounded-3xl border-4 sm:scale-150 scale-75"
       />
     </div>
+    
   );
 };
 
