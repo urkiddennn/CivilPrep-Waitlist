@@ -22,35 +22,56 @@ const LeftSplit = () => {
                 <h1 className="text-3xl font-bold">Features</h1>
                 <ul className="w-full flex flex-col gap-5">
                     <li className="w-full flex gap-3">
-                        <div className=" w-auto flex justify-center items-start float-start gap-3">
-                            <IoMdTime className="text-blue-500 size-7" />
+                        <div className="w-auto flex justify-center items-start float-start gap-3">
+                            {/* Unique icon for Design */}
+                            <span className="bg-pink-100 rounded-full p-2">
+                                <svg className="text-pink-500" width="28" height="28" fill="none" viewBox="0 0 24 24">
+                                    <rect x="3" y="3" width="7" height="7" rx="2" fill="currentColor" />
+                                    <rect x="14" y="3" width="7" height="7" rx="2" fill="currentColor" opacity="0.5" />
+                                    <rect x="3" y="14" width="7" height="7" rx="2" fill="currentColor" opacity="0.5" />
+                                    <rect x="14" y="14" width="7" height="7" rx="2" fill="currentColor" />
+                                </svg>
+                            </span>
                         </div>
                         <div className="flex flex-col text-start justify-center items-start">
-                            <h1 className="text-2xl font-semibold">Time management</h1>
+                            <h1 className="text-2xl font-semibold">Modern Design</h1>
                             <p className="text-gray-500">
-                                Hello wolrd this is the first section selected for the user
+                                Clean, intuitive, and responsive interface for a seamless study experience across all devices.
                             </p>
                         </div>
                     </li>
                     <li className="w-full flex gap-3">
-                        <div className=" w-auto flex justify-center items-start float-start gap-3">
-                            <IoMdTime className="text-blue-500 size-7" />
+                        <div className="w-auto flex justify-center items-start float-start gap-3">
+                            {/* Unique icon for Practice */}
+                            <span className="bg-blue-100 rounded-full p-2">
+                                <svg className="text-blue-500" width="28" height="28" fill="none" viewBox="0 0 24 24">
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" fill="none" />
+                                    <path d="M8 12l2.5 2.5L16 9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                </svg>
+                            </span>
                         </div>
                         <div className="flex flex-col text-start justify-center items-start">
-                            <h1 className="text-2xl font-semibold">Time management</h1>
+                            <h1 className="text-2xl font-semibold">Interactive Practice</h1>
                             <p className="text-gray-500">
-                                Hello wolrd this is the first section selected for the user
+                                Practice with real exam-style questions and instant feedback to boost your confidence.
                             </p>
                         </div>
                     </li>
                     <li className="w-full flex gap-3">
-                        <div className=" w-auto flex justify-center items-start float-start gap-3">
-                            <IoMdTime className="text-blue-500 size-7" />
+                        <div className="w-auto flex justify-center items-start float-start gap-3">
+                            {/* Unique icon for Analytics */}
+                            <span className="bg-green-100 rounded-full p-2">
+                                <svg className="text-green-500" width="28" height="28" fill="none" viewBox="0 0 24 24">
+                                    <rect x="4" y="10" width="3" height="10" rx="1.5" fill="currentColor" />
+                                    <rect x="10.5" y="6" width="3" height="14" rx="1.5" fill="currentColor" opacity="0.7" />
+                                    <rect x="17" y="2" width="3" height="18" rx="1.5" fill="currentColor" opacity="0.4" />
+                                </svg>
+                            </span>
                         </div>
                         <div className="flex flex-col text-start justify-center items-start">
-                            <h1 className="text-2xl font-semibold">Time management</h1>
+                            <h1 className="text-2xl font-semibold">Progress Analytics</h1>
                             <p className="text-gray-500">
-                                Hello wolrd this is the first section selected for the user
+                                Track your improvement with detailed analytics and personalized study recommendations.
                             </p>
                         </div>
                     </li>
