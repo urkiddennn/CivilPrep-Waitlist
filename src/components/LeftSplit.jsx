@@ -5,14 +5,14 @@ import { IoMdTime } from "react-icons/io";
 
 const LeftSplit = () => {
     return (
-        <div className="sm:w-1/2 w-full h-full flex flex-col gap-6 justify-start items-start md:px-20 sm:px-10 px-5 md:py-24 sm:py-12 py-6">
+        <div className="sm:w-full md:w-1/2 w-full h-full flex flex-col md:gap-3 lg:gap-5 sm:gap-3 gap-3 justify-start items-start md:px-20 sm:px-10 px-5 md:py-24 sm:py-12 py-6 pb-7">
             <div className="flex text-5xl justify-center items-center gap-5 mb-2">
                 <IoBookOutline className="text-blue-500" />
                 <h1 className="font-extrabold ">CivilPrep</h1>
             </div>
 
             <AvatarStack numberProfile={1000} />
-            <h1 className="sm:text-6xl text-4xl font-semibold my-6">
+            <h1 className="sm:text-4xl md:text-5xl lg:text-6xl   text-4xl font-semibold my-3 md:my-6">
                 Hello world, I don't have something to say
             </h1>
             <p className="text-lg text-gray-500 mb-2">
@@ -23,7 +23,7 @@ const LeftSplit = () => {
             </div>
             <div className="flex flex-col justify-start items-start gap-4 w-full mt-12">
                 <h1 className="text-3xl font-bold mb-2">Features</h1>
-                <ul className="w-full flex flex-col gap-6">
+                <ul className="w-full flex flex-col lg:gap-6 md:gap-4 gap-3">
                     <li className="w-full flex gap-3">
                         <div className="w-auto flex justify-center items-start float-start gap-3">
                             {/* Unique icon for Design */}
