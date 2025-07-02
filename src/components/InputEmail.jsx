@@ -31,7 +31,7 @@ export default function InputEmail() {
 
     return (
         <>
-            <form onSubmit={handleSubmit} className="md:w-3/3 w-full h-12 flex justify-center items-center bg-gray-200 rounded-full pl-6 pr-1 mb-3">
+            <form onSubmit={handleSubmit} className="md:w-3/3 w-full h-12 flex justify-center items-center bg-gray-200  rounded-full pl-6 pr-1 mb-3">
                 <input
                     type="email"
                     value={email}
